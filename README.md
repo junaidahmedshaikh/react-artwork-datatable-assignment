@@ -1,74 +1,31 @@
-<<<<<<< HEAD
-# React + TypeScript + Vite
+# 🎨 Artwork DataTable Assignment – PrimeReact + Vite + TypeScript
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This project is built as part of a React assignment. It displays artwork data using PrimeReact's `DataTable` with features like server-side pagination, row selection with persistence, and a custom selection panel.
 
-Currently, two official plugins are available:
+> ⚠️ **NOTE:** This app is built using **Vite + TypeScript** as required. No AI-generated core logic is used.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
 
-## Expanding the ESLint configuration
+## 🔗 Live Demo
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+🌐 [View Deployed App](https://react-artwork-datatable-assignment.netlify.app/)
 
-```js
-export default tseslint.config([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
+---
 
-      // Remove tseslint.configs.recommended and replace with this
-      ...tseslint.configs.recommendedTypeChecked,
-      // Alternatively, use this for stricter rules
-      ...tseslint.configs.strictTypeChecked,
-      // Optionally, add this for stylistic rules
-      ...tseslint.configs.stylisticTypeChecked,
+## 🛠️ Tech Stack
 
-      // Other configs...
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
-```
+- [React](https://react.dev/)
+- [Vite](https://vitejs.dev/)
+- [TypeScript](https://www.typescriptlang.org/)
+- [PrimeReact](https://primereact.org/)
+- [Axios](https://axios-http.com/)
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
+---
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
+## 📦 Installation
 
-export default tseslint.config([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
-      // Enable lint rules for React
-      reactX.configs['recommended-typescript'],
-      // Enable lint rules for React DOM
-      reactDom.configs.recommended,
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
-```
-=======
-# react-artwork-datatable-assignment
-This project is built as part of a React assignment
->>>>>>> 62a2f18e9ec4c10570a662dcc2178653150f80b9
+```bash
+git clone https://github.com/your-username/react-artwork-datatable-assignment.git
+cd react-artwork-datatable-assignment
+npm install
+npm run dev
